@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "avatar": "userDefault.png",
+    "specialties": ["Full-stack Web Developer", "3D Game Programming"],
+    "programmingLanguages": [
+      {"name": "JavaScript", "proficiency": 90},
+      {"name": "Python", "proficiency": 85},
+      {"name": "C#", "proficiency": 75}
+    ],
+    "skills": [
+      {"name": "Leadership"},
+      {"name": "Communication"},
+      {"name": "Problem-Solving"}
+    ],
+    "completedHackathons": [
+      {
+        "name": "CodeFest 2023",
+        "won": true,
+        "description": "A fast-paced hackathon where we built a real-time chat application in 24 hours."
+      },
+      {
+        "name": "Mobile Dev Hackathon",
+        "won": false,
+        "description": "A fast-paced hackathon where we built a real-time chat application in 24 hours."
+      },
+      {
+        "name": "CodeFest 2023",
+        "won": true,
+        "description": "A fast-paced hackathon where we built a real-time chat application in 24 hours."
+      },
+      {
+        "name": "CodeFest 2023",
+        "won": false,
+        "description": "A fast-paced hackathon where we built a real-time chat application in 24 hours."
+      },
+      {
+        "name": "GameDev Jam",
+        "won": false,
+        "description": "Participated with a team to create a 3D game prototype. It was a great learning experience, though we faced challenges with game mechanics and performance."
+      },
+      {
+        "name": "FutureTech Hackathon",
+        "won": true,
+        "description": "Built a decentralized voting platform using blockchain technology. The project was highly praised for its security and scalability."
+      },
+      {
+        "name": "CodeFest 2023",
+        "won": true,
+        "description": "A fast-paced hackathon where we built a real-time chat application in 24 hours."
+      },
+      {
+        "name": "CodeFest 2023",
+        "won": true,
+        "description": "A fast-paced hackathon where we built a real-time chat application in 24 hours."
+      },
+      {
+        "name": "Dev Hack Weekend",
+        "won": true,
+        "description": "A fast-paced hackathon where we built a real-time chat application in 24 hours."
+      },
+      {
+        "name": "GameDev Jam",
+        "won": false,
+        "description": "Participated with a team to create a 3D game prototype. It was a great learning experience."
+      }
+    ],
+    "description": "I'm a passionate full-stack web developer with a love for game programming. I enjoy solving complex problems and building applications that make a real-world impact. When I’m not coding, I’m exploring the latest tech trends and participating in hackathons."
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "avatar": "userDefault.png",
+    "specialties": ["Full-stack Web Developer", "3D Game Programming"],
+    "programmingLanguages": [
+      {"name": "JavaScript", "proficiency": 95},
+      {"name": "Ruby", "proficiency": 80},
+      {"name": "C++", "proficiency": 70}
+    ],
+    "skills": [
+      {"name": "Leadership"},
+      {"name": "Communication"},
+      {"name": "Teamwork"}
+    ],
+    "completedHackathons": [
+      {
+        "name": "Hackathon X",
+        "won": false,
+        "description": "Worked on a full-stack web application with a team. Learned a lot about API integration."
+      },
+      {
+        "name": "DevSprint 2023",
+        "won": true,
+        "description": "Built a chatbot for customer service using machine learning algorithms. It was a great success."
+      }
+    ],
+    "description": "I am a highly motivated web developer with expertise in full-stack development and game programming. I thrive in collaborative environments and enjoy working on innovative projects. My goal is to build products that improve users' lives and contribute to the tech community."
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "avatar": "userDefault.png",
+    "specialties": ["Full-stack Web Developer", "3D Game Programming"],
+    "programmingLanguages": [
+      {"name": "JavaScript", "proficiency": 85},
+      {"name": "Python", "proficiency": 80},
+      {"name": "Java", "proficiency": 70}
+    ],
+    "skills": [
+      {"name": "Leadership"},
+      {"name": "Communication"},
+      {"name": "Critical Thinking"}
+    ],
+    "completedHackathons": [
+      {
+        "name": "CodeHack 2023",
+        "won": true,
+        "description": "Our team built a machine learning-powered weather forecast application in just 48 hours."
+      },
+      {
+        "name": "TechChallenge 2023",
+        "won": false,
+        "description": "Developed an AI-based recommendation system. It was a good attempt but needs further improvements."
+      }
+    ],
+    "description": "As a developer with a strong foundation in full-stack web development and game programming, I’m passionate about using technology to solve problems. I’m always eager to learn new skills and expand my knowledge through real-world projects and hackathons."
+  }
+]

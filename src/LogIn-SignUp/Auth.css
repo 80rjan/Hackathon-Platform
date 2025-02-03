@@ -1,0 +1,129 @@
+
+#auth {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+#auth-formWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 8rem;
+    border-radius: 12px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.15) 50%, rgba(153, 153, 153, 0.15) 100%);
+    color: white;
+    align-items: center;
+    gap: 4rem;
+}
+#auth-formWrapper a {
+    text-decoration: none;
+}
+#auth-formWrapper > form {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-height: 13rem;
+    overflow-y: auto;
+    padding: 1rem 0.5rem;
+}
+#auth-formWrapper > form > div {
+    width: 100%;
+    max-width: 450px;
+}
+#auth-formWrapper > form::-webkit-scrollbar {
+    width: 0.3rem;
+}
+#auth-formWrapper > form::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.3);
+    border-radius: 1rem;
+}
+#auth-formWrapper > form::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.8);
+    border-radius: 1rem;
+}
+#auth-formWrapper > form::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,1);
+    border-radius: 1rem;
+}
+#auth-formWrapper > form input {
+    font-family: "Press Start 2P", cursive;
+    color: white;
+    border: none;
+    background: none;
+    border-radius: 8px;
+    background: rgba(0,0,0,0.2);
+    padding: 1.2rem 5rem;
+    text-align: center;
+}
+#auth-formWrapper > form select {
+    font-family: "Press Start 2P", cursive;
+    color: white;
+    border: none;
+    background: none;
+    border-radius: 2rem;
+    background: rgba(0,0,0,0.2);
+    padding: 1.2rem 5rem;
+    text-align: center;
+    width: 100%;
+}
+#auth-formWrapper > form option {
+    text-align: center;
+    background: var(--borderPurple);
+
+}
+#auth-formWrapper > form button {
+    font-family: "Press Start 2P", cursive;
+    border: none;
+    border-radius: 2rem;
+    background: rgba(0,0,0,0.2);
+    width: 50%;
+    padding: 1.2rem 5rem;
+    text-align: center;
+}
+#auth-formWrapper > form a {
+    color: rgba(255,255,255,0.5);
+    font-size: 0.8rem;
+}
+.buttonWrapper {
+    display: flex;
+    /*gap: -20px;*/
+    align-items: center;
+    background: rgba(0,0,0,0.2);
+    border-radius: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+.buttonWrapper button {
+    position: relative;
+    z-index: 3;
+    padding: 1rem 3rem;
+    color: rgba(255,255,255,0.5);
+}
+.buttonWrapper .btnActive {
+    color: white;
+    border-radius: 2rem;
+}
+.buttonWrapper #activeBtnBackground {
+    background: var(--red);
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    border-radius: inherit;
+}
+
+#auth-footerWrapper {
+    display: flex;
+    gap: 4rem;
+    padding: 2rem;
+}
+#auth-footerWrapper > a {
+    color: white;
+    font-size: 0.8rem;
+}

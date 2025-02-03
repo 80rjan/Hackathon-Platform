@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "image": "pictures/image2.jpg",
+    "specialties": ["Full-stack Web Developer", "3D Game Programming"],
+    "programmingLanguages": [
+      {"name": "JavaScript", "proficiency": 90},
+      {"name": "Python", "proficiency": 85},
+      {"name": "C#", "proficiency": 75}
+    ],
+    "skills": [
+      {"name": "Leadership"},
+      {"name": "Communication"},
+      {"name": "Problem-Solving"}
+    ],
+    "completedHackathons": [
+      {
+        "name": "CodeFest 2023",
+        "won": true,
+        "description": "A fast-paced hackathon where we built a real-time chat application in 24 hours."
+      }
+    ],
+    "description": "I'm a passionate full-stack web developer with a love for game programming. I enjoy solving complex problems and building applications that make a real-world impact. When I’m not coding, I’m exploring the latest tech trends and participating in hackathons."
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "image": "pictures/image1.jpg",
+    "specialties": ["Full-stack Web Developer", "3D Game Programming"],
+    "programmingLanguages": [
+      {"name": "JavaScript", "proficiency": 95},
+      {"name": "Ruby", "proficiency": 80},
+      {"name": "C++", "proficiency": 70}
+    ],
+    "skills": [
+      {"name": "Leadership"},
+      {"name": "Communication"},
+      {"name": "Teamwork"}
+    ],
+    "completedHackathons": [
+      {
+        "name": "Hackathon X",
+        "won": false,
+        "description": "Worked on a full-stack web application with a team. Learned a lot about API integration."
+      },
+      {
+        "name": "DevSprint 2023",
+        "won": true,
+        "description": "Built a chatbot for customer service using machine learning algorithms. It was a great success."
+      }
+    ],
+    "description": "I am a highly motivated web developer with expertise in full-stack development and game programming. I thrive in collaborative environments and enjoy working on innovative projects. My goal is to build products that improve users' lives and contribute to the tech community."
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "image": "pictures/image3.jpg",
+    "specialties": ["Full-stack Web Developer", "3D Game Programming"],
+    "programmingLanguages": [
+      {"name": "JavaScript", "proficiency": 85},
+      {"name": "Python", "proficiency": 80},
+      {"name": "Java", "proficiency": 70}
+    ],
+    "skills": [
+      {"name": "Leadership"},
+      {"name": "Communication"},
+      {"name": "Critical Thinking"}
+    ],
+    "completedHackathons": [
+      {
+        "name": "CodeHack 2023",
+        "won": true,
+        "description": "Our team built a machine learning-powered weather forecast application in just 48 hours."
+      },
+      {
+        "name": "TechChallenge 2023",
+        "won": false,
+        "description": "Developed an AI-based recommendation system. It was a good attempt but needs further improvements."
+      }
+    ],
+    "description": "As a developer with a strong foundation in full-stack web development and game programming, I’m passionate about using technology to solve problems. I’m always eager to learn new skills and expand my knowledge through real-world projects and hackathons."
+  },
+  {
+    "id": 4,
+    "name": "Michael Lee",
+    "image": "pictures/image5.jpg",
+    "specialties": ["Full-stack Web Developer", "AI Specialist"],
+    "programmingLanguages": [
+      {"name": "Java", "proficiency": 90},
+      {"name": "Python", "proficiency": 95},
+      {"name": "C", "proficiency": 80}
+    ],
+    "skills": [
+      {"name": "Problem-Solving"},
+      {"name": "Collaboration"},
+      {"name": "Analytical Thinking"}
+    ],
+    "completedHackathons": [
+      {
+        "name": "AI Hack 2024",
+        "won": true,
+        "description": "Built an AI-powered app for personalized learning."
+      }
+    ],
+    "description": "I'm an AI enthusiast with a strong background in full-stack development. I love solving real-world problems with technology and am always excited to learn about new advancements in AI and machine learning."
+  },
+  {
+    "id": 5,
+    "name": "Sophia Green",
+    "image": "pictures/image4.jpg",
+    "specialties": ["Full-stack Web Developer", "Cloud Solutions"],
+    "programmingLanguages": [
+      {"name": "JavaScript", "proficiency": 80},
+      {"name": "Ruby", "proficiency": 90},
+      {"name": "Go", "proficiency": 85}
+    ],
+    "skills": [
+      {"name": "Cloud Architecture"},
+      {"name": "Leadership"},
+      {"name": "Collaboration"}
+    ],
+    "completedHackathons": [
+      {
+        "name": "CloudDev Jam",
+        "won": false,
+        "description": "Created a cloud-based file-sharing app."
+      }
+    ],
+    "description": "A passionate web developer with experience in cloud computing, I enjoy building scalable applications and exploring innovative ways to improve development processes."
+  },
+  {
+    "id": 6,
+    "name": "Ethan Black",
+    "image": "pictures/image6.jpg",
+    "specialties": ["Full-stack Web Developer", "Blockchain Developer"],
+    "programmingLanguages": [
+      {"name": "Solidity", "proficiency": 90},
+      {"name": "JavaScript", "proficiency": 85},
+      {"name": "Python", "proficiency": 80}
+    ],
+    "skills": [
+      {"name": "Blockchain Development"},
+      {"name": "Problem-Solving"},
+      {"name": "Cryptography"}
+    ],
+    "completedHackathons": [
+      {
+        "name": "Blockathon 2023",
+        "won": true,
+        "description": "Built a decentralized voting application."
+      }
+    ],
+    "description": "I specialize in building decentralized applications and smart contracts. I'm always interested in exploring new ways blockchain can solve real-world issues."
+  }
+]

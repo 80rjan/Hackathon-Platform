@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+option {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+:root {
+  --red: #D72323;
+  --orange: #FAB12F;
+  --lightGreen: #7ED4AD;
+  --lightYellow: #E2D053;
+  --brightBlue: #0E8AE9;
+  --borderPurple: #2D236B;
+  --gold: #FFF600;
+  --padding-horizontal: 8rem;
+  --card-background: rgba(44, 43, 88, 0.95);
+  line-height: 2rem;
+}
+
+body {
+  font-size: 18px;
+
+  margin: 0;
+  font-family: "Electrolize", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(to bottom, #17153B, #15273B);
+  /*background: #17153B;*/
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.arcadeFont {
+  font-family: "Press Start 2P", cursive;
+}

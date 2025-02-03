@@ -1,0 +1,26 @@
+.navabrContainer {
+    border: 1px solid rgba(33, 25, 84);
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: radial-gradient(circle, rgba(33, 25, 84, 0.5), rgba(0, 0, 0, 0.1));
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 0 15px 2px rgba(144, 128, 196, 0.4);
+}
+
+.navabrContainer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navabrContainer div img {
+    width: 1.7rem;
+
+}
+
+.navabrContainer div p {
+    font-size: 13px;
+}

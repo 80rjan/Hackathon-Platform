@@ -1,0 +1,22 @@
+
+#navbar {
+    /*background: #eee;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+#navbar h3 {
+    color: white;
+    word-wrap: break-word;
+    width: min-content;
+    text-align: center;
+}
+#navbar-linksWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: var(--padding-horizontal);
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,142 @@
+.organizeFormContainer {
+    position: absolute;
+    right: 3%;
+    top: 8.5%;
+    width: 65%;
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    height: 81%;
+    color: white;
+    grid-template-rows: auto auto;
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    grid-column: 1 / 2;
+    padding: 10px;
+    background: radial-gradient(circle, rgba(44, 34, 104, 0.9), rgba(0, 0, 0, 0.2));
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+}
+
+.organizeHackathonHeading {
+    text-align: left;
+    font-size: 1.2rem;
+    color: rgba(253, 234, 100, 0.9);
+    margin-bottom: 1.1rem;
+    margin-top: 1rem;
+}
+
+.secondRow {
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.secondRow > .container {
+    padding: 10px;
+    background: radial-gradient(circle, rgba(44, 34, 104, 0.9), rgba(0, 0, 0, 0.2));
+    /*background-color: rgba(59,52,105,0.9);*/
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hackathons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1.5rem;
+}
+
+.hackathon {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.hackathon p {
+    font-size: 0.9rem;
+}
+
+.hackathon img {
+    width: 2rem;
+}
+
+.organized {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.myDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.details {
+    font-size: 9px;
+    line-height: 2;
+}
+
+
+.hackathonForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+
+.hackathonForm input,
+.hackathonForm select,
+.hackathonForm textarea {
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 0.17rem;
+}
+
+
+.hackathonForm input[type="text"],
+.hackathonForm input[type="number"],
+.hackathonForm input[type="date"],
+.hackathonForm select,
+.hackathonForm textarea {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 90%;
+}
+
+.hackathonForm textarea {
+
+}
+
+.buttonOrganizeHackathon:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+
+}
+
+.buttonOrganizeHackathon {
+    background-color: red;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+

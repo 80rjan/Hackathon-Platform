@@ -1,0 +1,11 @@
+.appNameContainer {
+    text-align: center;
+    padding: 0.5%;
+    position: relative;
+}
+
+.appNameContainer h1 {
+    font-size: 1.5rem;
+    color: white;
+}
+

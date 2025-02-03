@@ -1,0 +1,86 @@
+
+#SignUp {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+}
+#SignUp-FormWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 8rem;
+    width: fit-content;
+    border-radius: 12px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.15) 50%, rgba(153, 153, 153, 0.15) 100%);
+    color: white;
+    align-items: center;
+    gap: 4rem;
+}
+#SignUp-FormWrapper a {
+    text-decoration: none;
+}
+#SignUp-FormWrapper > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    overflow-y: auto;
+    height: 12rem;
+}
+
+#SignUp-FormWrapper > form::-webkit-scrollbar {
+    width: 0.3rem;
+}
+#SignUp-FormWrapper > form::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.3);
+    border-radius: 1rem;
+}
+#SignUp-FormWrapper > form::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.8);
+    border-radius: 1rem;
+}
+#SignUp-FormWrapper > form::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,1);
+    border-radius: 1rem;
+}
+#SignUp-FormWrapper > form input {
+    font-family: "Press Start 2P", cursive;
+    color: white;
+    border: none;
+    background: none;
+    border-radius: 2rem;
+    background: rgba(0,0,0,0.2);
+    padding: 1.2rem 5rem;
+    text-align: center;
+}
+#SignUp-FormWrapper .buttonWrapper {
+    display: flex;
+    gap: -20px;
+    align-items: center;
+    background: rgba(0,0,0,0.2);
+    border-radius: 2rem;
+    overflow: hidden;
+}
+#SignUp-FormWrapper .buttonWrapper button {
+    padding: 1rem 3rem;
+    color: rgba(255,255,255,0.5);
+}
+#SignUp-FormWrapper .buttonWrapper .btnActive {
+    background: var(--red);
+    color: white;
+    border-radius: 2rem;
+}
+
+#SignUp-FooterWrapper {
+    display: flex;
+    gap: 4rem;
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+}
+#SignUp-FooterWrapper > a {
+    color: white;
+    font-size: 0.8rem;
+}

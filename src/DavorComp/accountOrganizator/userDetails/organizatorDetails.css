@@ -1,0 +1,93 @@
+.organizatorDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(44,34,104,0.9), rgba(0, 0, 0, 0.2));
+    align-items: center;
+    width: 25%;
+    margin-left: 1%;
+    border-radius: 3%;
+    height: 100%;
+}
+
+
+/*userDetailsTop*/
+.organizatorDetailsTop {
+    background: radial-gradient(circle, rgba(144, 128, 196, 0.4), rgba(128, 128, 128, 0.1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1% 4% 4%;
+    border-radius: 3%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.userCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.userCard img {
+    width: 25%;
+    margin-bottom: 2%;
+    border-radius: 100%;
+}
+
+
+
+.userCard h3 {
+    color: white;
+    font-weight: 100;
+    margin: 1% 0 3%;
+}
+
+/*userDetailsTop */
+
+
+
+
+/*userDetailsMiddle*/
+
+/* Custom checkbox */
+
+.organizatorDetailsMiddle {
+
+    overflow: auto;
+    max-height: 100%;
+    border-bottom: 1px solid grey;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+
+
+}
+
+/*userDetailsMiddle*/
+
+.organizatorDetailsBottom {
+    margin-top: 1rem;
+}
+.hackathon{
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+}
+.hackathon img{
+    margin-right: 1rem;
+    width: 1rem;
+    margin-bottom: 0.5rem;
+}
+.organizedHackathons{
+
+    margin-bottom: 1rem;
+}
+.userCard div{
+    margin: 5% 0;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
